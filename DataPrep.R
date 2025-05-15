@@ -8,7 +8,8 @@ rm(list=ls())
 
 #-1: Data preparation: Directory, Package and Custom Functions
 
-setwd("C:/Users/Dotto/Dropbox/Università/PropensityGBM/Empirical Analysis/IncomeData")
+#setwd("C:/Users/Dotto/Dropbox/Università/PropensityGBM/Empirical Analysis/IncomeData")
+# AAA: THE USER HAS TO SET THE WORKING DIRECTORY WHERE THE dta file (downloadable from this repository as well) hhdata.dta is stored
 
 library(haven)
 library(xlsx)
