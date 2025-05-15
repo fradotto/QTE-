@@ -9,7 +9,14 @@ rm(list=ls())
 #-1: Data preparation: Directory, Package and Custom Functions
 
 #setwd("C:/Users/Dotto/Dropbox/Università/PropensityGBM/Empirical Analysis/IncomeData")
-# AAA: THE USER HAS TO SET THE WORKING DIRECTORY WHERE THE dta file (downloadable from this repository as well) hhdata.dta is stored
+
+############################ AAAA#################################################################################
+#                                                                                                                # 
+# This chunk of code is needed to manipulate the dta file donwladable directely from the N.i.D.S data repository.# 
+# The user interested in reproducing the results of the paper may skip this part of the code and jump to lines   #  
+# 287 and load the file formatted in rda callaed "data.mod.rda" donwloadable from this repository                #
+#                                                                                                                #
+###################################################################################################################
 
 library(haven)
 library(xlsx)
